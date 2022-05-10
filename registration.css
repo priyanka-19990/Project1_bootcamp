@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/dc/cf/31/dccf316a202df96d6a1111354f9d5016.jpg");
+}
+.heading{
+    height: 50px;
+    width:100%;
+    background:transparent;
+    padding:10px;
+    margin:0;
+} 
+.regis{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 400px; 
+    height: 430px;
+    width: 660px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 7px;
+    background: transparent;
+    color:black ;
+    font-family:Georgia, 'Times New Roman', Times, serif;    
+}
+.heading{
+    height: 70px;
+    width:100%; 
+}
+.log{
+    float: right;
+    width:100px ; 
+    height: 40px;
+    margin-top: 15px;
+    font-size: medium;
+    border-radius: 20px;
+    text-decoration: solid;
+    border:2px solid burlywood;
+    background-color: burlywood;
+    margin-right: 30px; 
+}
+#age{
+    width: 150px;
+}
+.button{
+    background-color: brown;
+    height: 40px;
+    width: 250px;
+    font-size: large;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 5px black;
+}
+input{
+    height: 20px;
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+

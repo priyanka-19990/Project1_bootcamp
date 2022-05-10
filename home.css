@@ -1,0 +1,84 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/124378.jpg");
+    background-size: 100%;
+    overflow: hidden;
+}
+img{
+    height: 70px;
+    width: 100px;
+    border-radius: 20%;
+    margin-left:10px;
+    opacity: 0.8; 
+}
+.heading{
+    height: 70px;
+    width:100%; 
+}
+.register{
+    margin-right: 20px;
+    margin-top: 15px;
+    width:100px ; 
+    height: 40px;
+     float: right; 
+    font-size: medium;
+    background-color: burlywood;
+    border: 2px solid burlywood;
+    border-radius: 20px;
+    text-decoration: solid;
+    /* content: url("http://127.0.0.1:5500/project/registration.html"); */
+}
+.log{
+    float: right;
+    width:100px ; 
+    height: 40px;
+    margin-top: 15px;
+    font-size: medium;
+    border-radius: 20px;
+    text-decoration: solid;
+    border:2px solid burlywood;
+    background-color: burlywood;
+    margin-right: 30px; 
+}
+.books{
+    margin-right: 40px;
+    margin-top: 15px; 
+    width:100px ; 
+    height: 40px; 
+     float: right; 
+    font-size: medium;
+    background-color: burlywood;
+    border: 2px solid burlywood;
+    border-radius: 20px;
+    text-decoration: solid;
+}
+.sidebar{
+    height:100vh;
+    width: 3vw;
+    display: block; 
+    padding:16px;
+    padding-left: 0%;
+    opacity: 0.6;
+    margin-left: 0%;
+    border-radius: 20px;
+    background-color:burlywood;
+    transition:width 0.5s ease-in;
+    transition:width 0.3s ease-out;
+    
+}
+.sidebar:hover{
+    width:90vw; 
+}
+.hide{
+    display: none;
+} 
+
+.sidebar:hover::after{
+   
+    content: '  Profile  "A great book should leave you with many experiences, and slightly exhausted at the end. You live several lives while reading." ― William Styron, Conversations with William Styron';
+    font-weight: 800;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

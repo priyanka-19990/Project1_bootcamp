@@ -1,0 +1,76 @@
+*{
+    overflow: hidden;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+body{
+    background-color:burlywood;
+}
+.data{
+    border: 3px;
+}
+.author{
+    border: 3px solid brown;
+    text-align: left;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.book{
+    border: 3px solid brown;
+    text-align: left;
+    padding: 10px;
+}
+td th {
+    border: 3px solid brown;
+    text-align: left;
+    padding: 10px;
+  }
+  .tab{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+  }
+  caption{
+      font-size: 30px;
+      font-weight: 700;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  th{
+      font-size: 20px;
+  }
+  .sr{
+      overflow-y: scroll;
+      height:75px;
+      margin-block: none;
+  }
+  .heading{
+    height: 70px;
+    width:100%; 
+}
+.log{
+    float: right;
+    width:100px ; 
+    height: 40px;
+    margin-top: 15px;
+    font-size: medium;
+    border-radius: 20px;
+    border:2px solid brown;
+    background-color: brown;
+    text-align: center;
+    margin-right: 40px; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+  /* .icon{
+      display:block;
+      margin-top: 50%;
+      align-items: center;
+      justify-content: center;
+  } */
+  /* .fa fa-arrows-left-right{
+      display: flex;
+      align-items: center;
+  } */
